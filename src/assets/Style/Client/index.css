@@ -1,0 +1,39 @@
+.beardCramp {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 600px;
+}
+.nama {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 500px;
+  text-align: end;
+}
+.container-data {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 850px) {
+  .nama {
+    width: 400px;
+  }
+
+  .container-data {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .beardCramp {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nama {
+    width: 150px;
+  }
+  .beardCramp {
+    width: 100px;
+  }
+}

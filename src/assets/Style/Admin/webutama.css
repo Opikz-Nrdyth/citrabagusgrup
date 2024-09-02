@@ -1,0 +1,53 @@
+.uploader {
+  border: 3px dashed #0d6efd;
+  width: 75%;
+  margin-left: 12.5%;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.uploader:hover {
+  background-color: #0d6dfd25;
+}
+.content-uploader {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.preview {
+  width: 75%;
+  margin-left: 12.5%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.preview img {
+  margin-top: 3px;
+}
+.preview button {
+  margin-top: 10px;
+}
+
+.input-text {
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+@media screen and (max-width: 850px) {
+  .content-uploader {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-uploader {
+    left: 0%;
+  }
+}

@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+
+/* Navbar */
+.logotext {
+  font-family: "CooperBlack";
+}
+
+.nav-light {
+  margin-right: 5px;
+  border-radius: 4px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.nav-light:hover {
+  background-color: white;
+}
+
+.nav-dark {
+  margin-right: 5px;
+  border-radius: 4px;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.nav-dark:hover {
+  background-color: #db3c00;
+}
+
+.navbar-toggler {
+  background-color: white;
+  opacity: 0.7;
+}
+
+.title {
+  font-family: "CooperBlack";
+  color: #db3c00;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.br-heart {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.br-heart::before,
+.br-heart::after {
+  content: "______________________";
+  color: #b4b4b4;
+  position: relative;
+  bottom: 8px;
+}
+
+/* Welcome */
+.bg-image-welcome {
+  height: 100vh;
+  width: 100%;
+  background: url("/images/header-background-resize.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  top: 0px;
+}
+
+.gradation-black {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  opacity: 0.5;
+}
+
+.content-margin-welcome {
+  height: 105vh;
+}
+
+.citraBagusGrup {
+  width: 100%;
+  height: 100%;
+}
+
+.citraBagusGrup text {
+  animation: stroke 3s infinite alternate;
+  font-family: "CooperBlack";
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 100px;
+}
+
+.citraBagusGrup {
+  margin-top: -45px;
+}
+
+.langkahTepat {
+  margin-top: 45px;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(255, 255, 255);
+  }
+
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 3;
+  }
+
+  100% {
+    fill: rgb(255, 255, 255);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.bounceInLeft {
+  animation: bounceInLeft 6s infinite;
+  font-family: RageItalic;
+  font-size: 50px;
+}
+
+.bounceInLeft span {
+  font-family: RageItalic;
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  30% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  35% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  45%,
+  60% {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  65% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  80% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+}
+
+/* Visi Misi & Fasilitas */
+.content-visi {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.deskripsi-fasilitas {
+  font-size: 2vw;
+  text-align: justify;
+}
+
+.content-Fasilitas {
+  margin-bottom: 50px;
+}
+
+/* Image */
+.card-img-top {
+  padding-top: 10px;
+}
+
+/* Fakta Menarik */
+.container-fakta {
+  width: 90%;
+  margin-left: 19%;
+}
+
+.bg-fakta {
+  background-color: #db3c00;
+  text-align: center;
+  padding: 0px;
+  padding-top: 10px;
+  border-radius: 6px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.footer-fakta {
+  height: 10px;
+  width: 100%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: yellow;
+}
+
+/* Daftar */
+#dropdown-kelas {
+  border: 1px solid #dee2e6;
+}
+
+/* Maps */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 50vh;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer */
+.wave {
+  height: fit-content;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #db3c00;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+@keyframes whatsapp {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 135px;
+  }
+}
+
+@keyframes instagram {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 180px;
+  }
+}
+
+@keyframes facebook {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 240px;
+  }
+}
+
+.whatsapp {
+  background-color: #2bb741;
+  color: white;
+}
+
+.instagram {
+  background-image: linear-gradient(
+    to right top,
+    #f5080a,
+    #fb0040,
+    #f30069,
+    #de0091,
+    #b900b3
+  );
+  color: white;
+}
+
+.facebook {
+  background-color: #415e9b;
+  color: white;
+}
+
+.sosmed {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  transition: width 0.5s;
+  padding-left: 12px;
+  margin-right: 10px;
+}
+
+.sosmed > span {
+  display: none;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sosmed:hover > span {
+  display: block;
+}
+
+.whatsapp:hover {
+  animation-name: whatsapp;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.instagram:hover {
+  animation-name: instagram;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.facebook:hover {
+  animation-name: facebook;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .citraBagusGrup text {
+    stroke-width: 1;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .citraBagusGrup {
+    margin-top: -20px;
+  }
+
+  .langkahTepat {
+    margin-top: 20px;
+  }
+
+  .title-fasilitas {
+    text-align: center;
+  }
+
+  .deskripsi-fasilitas {
+    font-size: 4vw;
+  }
+
+  .br-heart::before,
+  .br-heart::after {
+    content: "_________________";
+  }
+
+  .card-img-top {
+    padding: 2px;
+  }
+
+  .container-foto {
+    margin: 2px;
+  }
+
+  .container-fakta {
+    margin-left: 10%;
+  }
+
+  @keyframes whatsapp {
+    from {
+      width: 50px;
+    }
+
+    to {
+      width: 125px;
+    }
+  }
+
+  @keyframes instagram {
+    from {
+      width: 50px;
+    }
+
+    to {
+      width: 170px;
+    }
+  }
+
+  @keyframes facebook {
+    from {
+      width: 50px;
+    }
+
+    to {
+      width: 230px;
+    }
+  }
+
+  .sosmed {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    margin-bottom: 1%;
+  }
+
+  @keyframes stroke {
+    0% {
+      fill: rgba(72, 138, 204, 0);
+      stroke: rgb(255, 255, 255);
+      stroke-dashoffset: 25%;
+      stroke-dasharray: 0 50%;
+      stroke-width: 1;
+    }
+
+    70% {
+      fill: rgba(72, 138, 204, 0);
+      stroke: rgb(255, 255, 255);
+    }
+
+    80% {
+      fill: rgba(72, 138, 204, 0);
+      stroke: rgb(255, 255, 255);
+      stroke-width: 2;
+    }
+
+    100% {
+      fill: rgb(255, 255, 255);
+      stroke: rgba(54, 95, 160, 0);
+      stroke-dashoffset: -25%;
+      stroke-dasharray: 50% 0;
+      stroke-width: 0;
+    }
+  }
+
+  .citraBagusGrup text {
+    stroke-width: 1;
+    font-size: 30px;
+  }
+
+  .bounceInLeft {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logotext {
+    font-size: 17px;
+  }
+
+  .br-heart::before,
+  .br-heart::after {
+    content: "____________";
+  }
+}

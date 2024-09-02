@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Siswa",
+    "logo": "<i class=\"fa-solid fa-users\"></i>"
+  },
+  {
+    "name": "Pra Regist",
+    "logo": "<i class=\"fa-solid fa-user-tag\"></i>"
+  },
+  {
+    "name": "Materi",
+    "logo": "<i class=\"fa-solid fa-book-open\"></i>"
+  },
+  {
+    "name": "Jadwal",
+    "logo": "<i class=\"fa-solid fa-calendar-days\"></i>"
+  },
+  {
+    "name": "Ujian",
+    "logo": "<i class=\"fa-solid fa-file-invoice\"></i>"
+  },
+  {
+    "name": "Penilaian",
+    "logo": "<i class=\"fa-solid fa-ranking-star\"></i>"
+  },
+  {
+    "name": "Karyawan",
+    "logo": "<i class=\"fa-solid fa-people-group\"></i>"
+  },
+  {
+    "name": "Pres Tentor",
+    "logo": "<i class=\"fa-solid fa-book-open-reader\"></i>"
+  },
+  {
+    "name": "Biaya",
+    "logo": "<i class=\"fa-solid fa-money-bill-wave\"></i>"
+  },
+  {
+    "name": "Informasi",
+    "logo": "<i class=\"fa-solid fa-circle-info\"></i>"
+  },
+  {
+    "name": "Settings",
+    "logo": "<i class=\"fa-solid fa-gears\"></i>"
+  },
+  {
+    "name": "Album",
+    "logo": "<i class=\"fa-solid fa-image\"></i>"
+  },
+  {
+    "name": "Minat Univ",
+    "logo": "<i class= \"fa-solid fa-school\"></i>"
+  },
+  {
+    "name": "Alumni",
+    "logo": "<i class=\"fa-solid fa-graduation-cap\"></i>"
+  }
+]

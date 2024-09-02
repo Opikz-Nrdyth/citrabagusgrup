@@ -1,0 +1,93 @@
+/* Navbar */
+.brand {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  font-family: "CooperBlack";
+  color: white;
+  font-size: 1.3rem;
+}
+
+.brand:hover {
+  color: white;
+}
+
+.humberger-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.humberger-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Sidebar */
+#sidebar {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.sidebar {
+  height: 97vh;
+  position: fixed;
+  left: 0px;
+  top: 53px;
+  background-color: #db3c00;
+  width: 20%;
+}
+
+.side-item {
+  padding: 15px;
+  color: white;
+  width: 110%;
+}
+
+.side-item:hover {
+  background-color: #ffca2c;
+  padding-left: 30px;
+  color: black;
+}
+
+.side-item:hover:before {
+  content: "➤ ";
+}
+
+.side-item-active {
+  padding: 15px;
+  background-color: #ffca2c;
+  padding-left: 30px;
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .brand {
+    font-size: 1.1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    overflow-x: hidden;
+    height: 80vh;
+  }
+
+  .side-item {
+    padding-left: 40px;
+  }
+
+  .side-item:hover {
+    padding-left: 60px;
+  }
+
+  .side-item-active {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .brand {
+    width: 75%;
+    font-size: 1.1rem;
+  }
+}

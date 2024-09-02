@@ -1,0 +1,46 @@
+.data {
+  min-height: 100px;
+  height: fit-content;
+}
+
+.jamAjar {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.content-jadwal {
+  margin-top: 10px;
+}
+
+.icon {
+  background-color: transparent !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-item:hover {
+  background-color: #ffca2c;
+}
+
+.inputData {
+  display: flex;
+}
+
+.inputDataJadwal {
+  display: flex;
+}
+
+@media screen and (max-width: 450px) {
+  .inputData {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

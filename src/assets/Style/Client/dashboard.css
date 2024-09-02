@@ -1,0 +1,480 @@
+.blue-section {
+  background-color: #db3c00;
+  width: 50%;
+  height: 70px;
+  border-bottom-right-radius: 500px 500px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.blue-section div {
+  color: #fff;
+  padding-top: 1%;
+  margin-left: 2%;
+}
+.blue-section span {
+  padding-top: -10px;
+}
+#curved-corner-topleft {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+#curved-corner-topleft:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+#curved-corner-topleft:before {
+  top: 0;
+  left: 0;
+  box-shadow: -50px -50px 0 0 #db3c00;
+}
+
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 100px;
+  background-color: #f4e0c6;
+  position: absolute;
+  top: 10px;
+  animation: talk-bubble 1s both;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@keyframes talk-bubble {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+.round {
+  border-radius: 16px;
+}
+
+.tri-right.border.btm-left:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -8px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 32px solid;
+  border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 22px solid;
+  border-color: transparent transparent transparent #f4e0c6;
+}
+
+.tri-right.border.btm-left-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.btm-left-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #f4e0c6 transparent transparent #f4e0c6;
+}
+.dots {
+  position: absolute;
+  left: 80%;
+  top: 5%;
+}
+.dots-1 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-top: 5px;
+}
+.dots-1-inner {
+  width: 20px;
+  height: 20px;
+  background-color: #f3d481;
+  border-radius: 50px;
+  margin-left: 40%;
+}
+.dots-2 {
+  width: 30px;
+  height: 30px;
+  background-color: #db3c00;
+  border-radius: 50px;
+  margin-left: -15px;
+  margin-top: -20px;
+}
+.dots-3 {
+  width: 20px;
+  height: 20px;
+  background-color: #f38e9f;
+  border-radius: 50px;
+  margin-left: 50%;
+  margin-top: -20px;
+}
+
+.name {
+  margin-left: 10%;
+  padding-top: 30px;
+  width: 65%;
+  font-family: jua;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ucapan {
+  margin-left: 10%;
+}
+
+.Account {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  border-radius: 100px;
+  border: 2px solid #db3c00;
+}
+
+.Account img {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+.button-selection {
+  position: absolute;
+  width: 88%;
+  left: 20%;
+}
+.button-item {
+  height: 250px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button-item:hover {
+  background-color: #db3c00;
+  cursor: pointer;
+  color: #e6e6e6;
+}
+
+.button-item img {
+  width: 80%;
+  margin-top: -5%;
+  margin-left: 10%;
+}
+
+.button-item p {
+  font-family: jua;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.comment-selection {
+  background-color: #db3c00;
+  width: 100%;
+  height: 70px;
+  border-bottom-right-radius: 500px 500px;
+  transform: scale(-1, -1);
+}
+#curved-corner-topright {
+  margin-top: 20%;
+  width: 130px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  transform: scale(-1, -1);
+  margin-left: 90%;
+}
+#curved-corner-topright:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+#curved-corner-topright:before {
+  top: 0;
+  left: 0;
+  box-shadow: -50px -50px 0 0 #db3c00;
+}
+
+.informations {
+  background-color: #db3c00;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+.title-comment {
+  font-family: jua;
+  background-color: #db3c00;
+  position: absolute;
+  margin-top: -50px;
+  color: #e6e6e6;
+  left: 3%;
+}
+
+.item-comment {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  height: fit-content;
+  position: relative;
+}
+
+.item-comment::before {
+  content: "";
+  width: 10px;
+  height: auto;
+  background-color: #ae8ef3;
+  position: absolute;
+  left: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  top: 0;
+  bottom: 0;
+}
+
+.item-comment-placeholder {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  height: fit-content;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.item-comment-placeholder::before {
+  content: "";
+  width: 10px;
+  height: auto;
+  background-color: #ae8ef3;
+  position: absolute;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.title-items {
+  padding-top: 2%;
+}
+
+.deskripsi-items {
+  padding-bottom: 2%;
+}
+
+.placeHolder {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .button-item {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .blue-section {
+    width: 100%;
+  }
+  #curved-corner-topleft {
+    width: 70px;
+    height: 70px;
+    margin-top: -2px;
+  }
+  .talk-bubble {
+    top: -5px;
+    width: 50%;
+    height: 100px;
+  }
+  .name {
+    width: 200px;
+  }
+  .Account {
+    width: 60px;
+    height: 60px;
+    top: 5px;
+    right: 25px;
+    border: 2px solid #f3d481;
+  }
+  .Account img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .button-selection {
+    position: absolute;
+    width: 88%;
+    left: 13%;
+    margin-top: 5%;
+  }
+  .button-item {
+    height: 320px;
+    background-color: #eceef1;
+    border-radius: 20px;
+  }
+  #curved-corner-topright {
+    margin-top: 700px;
+    margin-left: 85%;
+  }
+  .comment-selection {
+    margin-top: -1px;
+  }
+
+  .informations {
+    margin-top: -1px;
+    min-height: 200px;
+  }
+  .item-comment::before {
+    margin-left: -2%;
+  }
+  .title-comment {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .blue-section {
+    width: 100%;
+    height: 45px;
+  }
+  #curved-corner-topleft {
+    width: 70px;
+    height: 70px;
+    margin-top: -1px;
+  }
+
+  .talk-bubble {
+    top: -10px;
+    width: 70%;
+    height: 80px;
+  }
+  .dots-1 {
+    width: 35px;
+    height: 35px;
+  }
+  .dots-1-inner {
+    width: 20px;
+    height: 20px;
+    background-color: #f3d481;
+    border-radius: 50px;
+    margin-left: 40%;
+  }
+  .dots-2 {
+    width: 20px;
+    height: 20px;
+    background-color: #db3c00;
+    border-radius: 50px;
+    margin-left: -10px;
+    margin-top: -20px;
+  }
+  .dots-3 {
+    width: 15px;
+    height: 15px;
+    background-color: #f38e9f;
+    border-radius: 50px;
+    margin-left: 50%;
+    margin-top: -7px;
+  }
+
+  .name {
+    width: 66%;
+  }
+
+  .Account {
+    width: 40px;
+    height: 40px;
+    top: 2px;
+    right: 20px;
+    border: 2px solid #f3d481;
+  }
+  .Account img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .button-selection {
+    position: absolute;
+    width: 100%;
+    left: 8%;
+    margin-top: 5%;
+  }
+  .button-item {
+    height: 200px;
+    background-color: #eceef1;
+    border-radius: 20px;
+  }
+
+  .item-comment {
+    margin-left: 4%;
+    width: 93%;
+  }
+
+  .item-comment::before {
+    margin-left: -4%;
+  }
+
+  .comment-selection {
+    background-color: #db3c00;
+    width: 100%;
+    height: 70px;
+    border-bottom-right-radius: 166px 266px;
+    transform: scale(-1, -1);
+  }
+
+  #curved-corner-topright {
+    margin-left: 80%;
+    margin-top: 400px;
+  }
+
+  .informations {
+    min-height: 100px;
+  }
+  .title-comment {
+    margin-left: 4%;
+  }
+}

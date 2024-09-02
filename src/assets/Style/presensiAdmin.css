@@ -1,0 +1,20 @@
+.qrcode-canvas{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+.qrcode-scanner{
+    width: 300px;
+    height: 300px;
+}
+
+#reader{
+    width: 300px !important;
+    height: 300px !important;
+    border: double black;
+}
+
+#reader video {
+    width: 290px !important;
+    height: 290px !important;
+}

@@ -1,0 +1,43 @@
+.content-jadwal-tentor {
+  min-height: 70vh;
+  margin-top: 50px;
+}
+
+.content-schedule {
+  width: 98%;
+  margin-left: 1%;
+}
+
+.content-table {
+  overflow-y: scroll;
+  height: 72vh;
+}
+
+.col-tanggal {
+  min-height: 70px;
+  height: fit-content;
+}
+
+.col-2 .tanggal {
+  text-align: end;
+}
+
+.schedule div {
+  font-size: 11px;
+  background-color: aqua;
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .content-schedule {
+    width: 180%;
+  }
+
+  .overflow {
+    overflow-x: scroll;
+  }
+}

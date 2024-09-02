@@ -1,0 +1,99 @@
+.content .step-title {
+  margin-top: -10px;
+  text-align: start;
+}
+.content .step-description {
+  text-align: start;
+}
+.progress-mobile {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.stepsm::before {
+  content: "";
+  background-color: #cecece;
+  position: absolute;
+  width: 33%;
+  height: 5px;
+  top: 50%;
+  margin-left: 330px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.stepsm-active::before {
+  content: "";
+  background-color: #11aa75;
+  position: absolute;
+  width: 33%;
+  height: 5px;
+  top: 50%;
+  margin-left: 330px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.progress-bar-mobile {
+  position: absolute;
+  width: 0;
+  height: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #11aa75;
+  transition: width 0.4s ease;
+  z-index: -1;
+}
+.step-mobile {
+  width: 30px;
+  height: 30px;
+  background-color: #303030;
+  border-radius: 50%;
+  border: 4px solid #cecece;
+  display: grid;
+  place-items: center;
+  color: #cecece;
+  transition: border-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.step-mobile.active {
+  border-color: #11aa75;
+  color: #efefef;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .stepsm::before {
+    content: "";
+    width: 33%;
+    height: 5px;
+    margin-left: 35%;
+  }
+
+  .stepsm-active::before {
+    width: 33%;
+    height: 5px;
+    top: 50%;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stepsm::before {
+    content: "";
+    width: 33%;
+    height: 5px;
+    margin-left: 35%;
+  }
+
+  .stepsm-active::before {
+    width: 33%;
+    height: 5px;
+    top: 50%;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}

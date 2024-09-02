@@ -1,0 +1,15 @@
+.fr-toolbar {
+  left: 25% !important;
+  width: 40% !important;
+}
+.editor-container {
+  min-height: 40px;
+  height: fit-content;
+}
+[style="z-index:9999;width:100%;position:relative"] {
+  display: none !important;
+}
+[href="https://www.froala.com/wysiwyg-editor?k=u"]
+{
+  display: none !important;
+}

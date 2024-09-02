@@ -1,0 +1,26 @@
+.tabel-data {
+  overflow-x: scroll;
+}
+.tabel-data table {
+  width: 200%;
+}
+.picker {
+  cursor: pointer;
+}
+
+.ck-content h1 {
+  display: none;
+}
+
+.mg-input-kunci {
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 450px) {
+  .mg-input-kunci {
+    margin-left: 10%;
+  }
+}

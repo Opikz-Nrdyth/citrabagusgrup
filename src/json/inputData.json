@@ -1,0 +1,76 @@
+{
+  "siswa": [
+    {
+      "name": "Username",
+      "type": "text",
+      "placeholder": "Username / No Induk"
+    },
+    {
+      "name": "Nama",
+      "type": "text",
+      "placeholder": "Masukan Nama"
+    },
+    {
+      "name": "TanggalLahir",
+      "type": "text",
+      "placeholder": "Tanggal Lahir"
+    },
+    {
+      "name": "AsalSekolah",
+      "type": "text",
+      "placeholder": "Asal Sekolah"
+    },
+    {
+      "name": "NoHP",
+      "type": "text",
+      "placeholder": "Nomer Hp"
+    },
+    {
+      "name": "Kelas",
+      "type": "dropdown",
+      "placeholder": "Kelas",
+      "minValue": 1,
+      "maxValue": 12
+    },
+    {
+      "name": "TipeKelas",
+      "type": "text",
+      "placeholder": "Tipe Kelas"
+    },
+    {
+      "name": "SecondaryKelas",
+      "type": "text",
+      "placeholder": "Secondary Kelas"
+    },
+    {
+      "name": "Program",
+      "type": "text",
+      "placeholder": "Program Kelas"
+    },
+    {
+      "name": "NamaOrtu",
+      "type": "text",
+      "placeholder": "Nama Orang Tua"
+    },
+    {
+      "name": "Alamat",
+      "type": "text",
+      "placeholder": "Alamat"
+    },
+    {
+      "name": "tlpOrtu",
+      "type": "text",
+      "placeholder": "Nomer Hp Ortu"
+    },
+    {
+      "name": "Pekerjaan",
+      "type": "text",
+      "placeholder": "Pekerjaan Ortu"
+    },
+    {
+      "name": "Password",
+      "type": "text",
+      "placeholder": "Password"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+.element-profile {
+  margin-top: 80px;
+  margin-left: 5%;
+}
+.border-element {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+
+.rounded-profile {
+  background-color: aqua;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.rounded-profile img {
+  border-radius: 100px;
+}
+
+.footer {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  width: 87%;
+}
+
+.color-whatsapp {
+  background-color: #2ab13f;
+  color: white;
+}
+
+.color-instagram {
+  color: white;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.exit-btn {
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 850px) {
+  .element-profile {
+    margin-left: 4%;
+  }
+
+  .data_orangtua {
+    width: 103%;
+    margin-left: -2%;
+    margin-top: 9px;
+  }
+
+  .data_cbg {
+    width: 103%;
+    margin-left: -2%;
+  }
+
+  .exit-btn {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .element-profile {
+    margin-top: 80px;
+    margin-left: 4%;
+  }
+  .data_orangtua {
+    width: 106%;
+    margin-left: -3%;
+    margin-top: 9px;
+  }
+  .data_cbg {
+    width: 106%;
+    margin-left: -3%;
+  }
+  .footer {
+    border-radius: 8px;
+    width: 90%;
+    margin-left: 1%;
+  }
+  .exit-btn {
+    margin-left: 20%;
+  }
+}

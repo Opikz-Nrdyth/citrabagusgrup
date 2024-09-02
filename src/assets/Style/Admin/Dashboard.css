@@ -1,0 +1,21 @@
+.margin-content {
+  margin-top: 70px;
+}
+
+.margin-content-side {
+  margin-top: 70px;
+  margin-left: 23%;
+  margin-right: 5%;
+}
+
+.container-menu {
+  margin-left: 5%;
+  width: 105%;
+}
+
+@media screen and (max-width: 450px) {
+  .margin-content-side {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

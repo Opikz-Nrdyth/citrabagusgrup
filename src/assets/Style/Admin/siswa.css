@@ -1,0 +1,46 @@
+.form-selectClass {
+  width: 50%;
+  display: inline-block;
+  height: 55px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.form-Kelas {
+  width: 50%;
+  display: inline-block;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.pagination {
+  width: fit-content;
+}
+
+.pagination-top {
+  width: fit-content;
+  margin-top: -50px;
+}
+
+.pagination .active {
+  z-index: -1;
+}
+
+#search {
+  font-size: 13px;
+}
+
+th,
+td {
+  font-size: 12px;
+}
+
+.tableData {
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 450px) {
+}

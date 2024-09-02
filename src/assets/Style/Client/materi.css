@@ -1,0 +1,18 @@
+.data {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.card {
+  width: 200px;
+}
+@media screen and (max-width: 850px) {
+  .card {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 150px;
+  }
+}
